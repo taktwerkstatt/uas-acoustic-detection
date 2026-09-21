@@ -1,0 +1,12 @@
+# Akustik-Kette (acoustic/)
+numpy
+matplotlib
+soundfile        # WAV lesen/schreiben (nur fuer --analyze / --record)
+sounddevice      # Audioaufnahme (nur fuer --record / --meter / --list)
+
+# Radar-Strang (radar/) – nur bei Bedarf
+pyserial         # tlv_logger.py (serielle Radar-Anbindung)
+
+# Ground-Truth-Auswertung (spaeter, optional)
+# pymavlink       # ESC-RPM aus MAVLink
+# pyulog          # esc_rpm aus PX4 .ulg

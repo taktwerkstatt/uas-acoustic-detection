@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Messdaten / Aufnahmen (nicht ins Repo)
+*.wav
+*.wav.json
+*.ulg
+*.bin
+recordings/
+data/
+
+# Aber Grafiken behalten:
+!docs/figures/*.png
+
+# OS
+.DS_Store
+Thumbs.db
